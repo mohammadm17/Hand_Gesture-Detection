@@ -12,7 +12,7 @@ mpDraw = mp.solutions.drawing_utils
 
 # Load the gesture recognizer model
 
-model = load_model('mp_hand_gesture')
+model = load_model('model')
 
 # Function to process each frame
 def process_frame(frame):
